@@ -81,7 +81,7 @@ export default function Services() {
           {services.map((service, index) => (
             <div
               key={index}
-              className="bg-white shadow-lg rounded-2xl overflow-hidden hover:shadow-2xl hover:scale-105 transition-all duration-300"
+              className="bg-white shadow-2xl rounded-2xl overflow-hidden hover:shadow-2xl hover:scale-105 transition-all duration-300"
             >
               <img
                 src={service.img}
