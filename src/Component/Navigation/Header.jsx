@@ -27,7 +27,7 @@ const Header = () => {
           {/* Logo */}
           <div className="flex-shrink-0">
             <a href="#home" className="text-2xl font-bold text-gray-900 tracking-wide">
-              <span className="text-indigo-600">Kreative</span> Multimedia
+              <span className="text-[#001f3f]">Kreatives</span> Multimedia
             </a>
           </div>
 
@@ -48,7 +48,7 @@ const Header = () => {
           <div className="hidden md:block">
             <a 
               href="#contact"
-              className="bg-indigo-600 text-white px-4 py-2 rounded-lg text-sm font-medium shadow-lg hover:bg-indigo-700 transition duration-300 transform hover:scale-105"
+              className="bg-[#0f2133] text-white px-4 py-2 rounded-lg text-sm font-medium shadow-lg hover:bg-indigo-700 transition duration-300 transform hover:scale-105"
             >
               Start Your Project
             </a>

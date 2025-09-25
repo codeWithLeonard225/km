@@ -63,10 +63,10 @@ export default function About() {
       >
         <p className="text-base text-indigo-600 font-semibold tracking-wide uppercase">Our Foundation</p>
         <h1 className="mt-2 text-4xl sm:text-5xl lg:text-6xl font-extrabold text-gray-900">
-          More Than Multimedia. We Are <span className="text-indigo-600">Transformation.</span>
+          More Than Multimedia. We Are <span className="text-blue-900">Transformation.</span>
         </h1>
         <p className="mt-4 text-xl text-gray-500 max-w-3xl mx-auto">
-          For over a decade, Kreative Multimedia has been the trusted catalyst for businesses seeking meaningful brand elevation and measurable growth.
+          For over a decade, Kreatives Multimedia has been the trusted catalyst for businesses seeking meaningful brand elevation and measurable growth.
         </p>
       </motion.div>
 
@@ -147,7 +147,7 @@ export default function About() {
               variants={fadeInVariants} // Apply the fade-in animation to each item
               className="flex flex-col items-center text-center p-6 bg-white rounded-lg shadow-lg hover:shadow-xl transition duration-300"
             >
-              <value.icon className="h-10 w-10 text-indigo-600 mb-4" />
+              <value.icon className="h-10 w-10 text-[#0f2133] mb-4" />
               <h3 className="text-xl font-semibold text-gray-900 mb-2">{value.title}</h3>
               <p className="text-gray-500">{value.description}</p>
             </motion.div>
@@ -157,7 +157,7 @@ export default function About() {
       
       {/* === 4. Final CTA Section (Animated) === */}
       <motion.div 
-        className="bg-indigo-700 py-16"
+        className="bg-[#0f2133] py-16"
         variants={fadeInVariants}
         initial="hidden"
         whileInView="visible"
