@@ -172,13 +172,13 @@ export default function About() {
           </p>
           <div className="mt-8 flex justify-center space-x-4">
             <a 
-              href="/portfolio"
+              href="#portfolio"
               className="px-8 py-3 text-lg font-semibold text-indigo-700 bg-white rounded-full hover:bg-gray-100 transition duration-300 shadow-xl"
             >
               View Portfolio
             </a>
             <a 
-              href="/contact"
+              href="#contact"
               className="px-8 py-3 text-lg font-semibold text-white border-2 border-indigo-300 rounded-full hover:bg-indigo-800 transition duration-300"
             >
               Consult with Us

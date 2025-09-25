@@ -58,7 +58,7 @@ const HeroSection = () => {
             className="flex flex-col items-center sm:flex-row sm:justify-center space-y-4 sm:space-y-0 sm:space-x-4"
           >
             <a
-              href="/contact"
+              href="#contact"
               className="px-6 py-2 text-base font-semibold text-white bg-[#0f2133] rounded-full 
                          hover:bg-indigo-700 transition duration-300 transform hover:scale-105 shadow-xl sm:px-8 sm:py-3 sm:text-lg"
             >
@@ -66,7 +66,7 @@ const HeroSection = () => {
             </a>
 
             <a
-              href="/portfolio"
+              href="#portfolio"
               className="px-6 py-2 text-base font-semibold text-indigo-200 border-2 border-indigo-200 rounded-full 
                          hover:bg-indigo-600 hover:border-indigo-600 hover:text-white transition duration-300 sm:px-8 sm:py-3 sm:text-lg"
             >
