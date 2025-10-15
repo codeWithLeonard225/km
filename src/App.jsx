@@ -6,27 +6,29 @@ import Services from "./Component/Pages/Services";
 import Portfolio from "./Component/Pages/PortfolioItems";
 import Footer from "./Component/Pages/Footer";
 import ContactSection from "./Component/Pages/ContactSection";
+import PaymentReminderPage from "./Component/Pages/PaymentReminderPage";
 
 const App = () => {
   return (
     <div className="font-sans">
       {/* Navbar */}
-      <Navbar />
+      {/* <Navbar /> */}
+      <PaymentReminderPage />
 
       {/* Sections */}
-      <section id="home">
+      {/* <section id="home">
         <HeroSection />
-      </section>
+      </section> */}
 
-      <section id="about">
+      {/* <section id="about">
         <About />
-      </section>
+      </section> */}
 
    
-      <section id="services"><Services /></section>
+      {/* <section id="services"><Services /></section>
       <section id="Portfolio"><Portfolio /></section>
       <section id="contact"><ContactSection /></section>
-      <section id="footer"><Footer /></section>
+      <section id="footer"><Footer /></section> */}
      
     </div>
   );
